@@ -10,7 +10,7 @@ var reverse = function(x) {
 		return 0;
 	if(neg)                                           // Add negative back
 		x.unshift('-'); 
-	x = parseInt(x.join(''));                                   // String again
+	x = parseInt(x.join(''));                         // String again
 
 	return x;
 };
